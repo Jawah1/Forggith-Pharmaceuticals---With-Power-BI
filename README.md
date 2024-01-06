@@ -47,35 +47,45 @@ Data Cleaning & Transformation
 Both sales tables had similar column names so they were appended together.
 Each dimension table had its unique identifier in the sales table, except the DimChannel table. The DimChannel tabe was joined with the DimSubChannel table using its unique identifier to enable a star schema model.
 
+
 ![Join Dim channel](https://github.com/MohamedAlimamyJawah/Forggith-Pharmaceuticals---With-Power-BI/assets/131864852/1a141f0e-8702-49dc-ad52-d0f44615b9c2)
 
 ## Unpivoting columns in the target table
 
+
 ![Screenshot (29)](https://github.com/MohamedAlimamyJawah/Forggith-Pharmaceuticals---With-Power-BI/assets/131864852/e6c4b639-36e0-4721-b8a5-4516e99cbf06)
+
 
 # Data Modelling
 
 Unique identifiers- Primary keys in the dimension tables were related to the respective columns - foreign keys in the facts tables (sales and target tables).
 
+
 ![Screenshot (30)](https://github.com/MohamedAlimamyJawah/Forggith-Pharmaceuticals---With-Power-BI/assets/131864852/3cec1608-93c8-4dbc-9705-1dce32e78e66)
 
+
 # Report Building and Visualization
+
 
 Kep Performace indicator
 
 ![B KPI](https://github.com/MohamedAlimamyJawah/Forggith-Pharmaceuticals---With-Power-BI/assets/131864852/8b949d7d-22c8-4033-a4f7-c004f24942c7)
 
+
 Revenu month on month
 
 ![Month on month](https://github.com/MohamedAlimamyJawah/Forggith-Pharmaceuticals---With-Power-BI/assets/131864852/0a4e1b69-0bef-48e8-9a9a-055891db7640)
+
 
 Revenue by product class
 
 ![Total Revenue by product class](https://github.com/MohamedAlimamyJawah/Forggith-Pharmaceuticals---With-Power-BI/assets/131864852/5ae6b12f-3299-4be0-8945-f1b8eaa1fec5)
 
+
 Revenue by channel
 
 ![Revenue by channel](https://github.com/MohamedAlimamyJawah/Forggith-Pharmaceuticals---With-Power-BI/assets/131864852/0f722852-a993-4d6d-8745-994e669d8f3b)
+
 
 Sales Performance by Cities
 
