@@ -5,7 +5,7 @@ In their efforts to maximize growth, Forggith works with a team of Sales and Mar
 
 Forggith is looking to create some Power BI Reports to assist in guiding their strategies, tactics, and operations as a company. They have identified a couple of numbers they would like to report from their data as reports.
 
-# Sales Performance Overview (Sliced by: Year, Month, Quarter, Team)
+## Sales Performance Overview (Sliced by: Year, Month, Quarter, Team)
 
 Total Revenue
 Total Revenue Year To Date (YTD)
@@ -19,7 +19,7 @@ Revenue Distribution by Location
 Revenue by Channel
 Revenue by Product Class
 
-# Marketing Performance (Slice by Year, Quarter, Month, Product Category and Team)
+## Marketing Performance (Slice by Year, Quarter, Month, Product Category and Team)
 
 Revenue Achieved vs Revenue Target
 Volume Achieved vs Volume Target
@@ -30,7 +30,7 @@ Target Volume Achievement by Sales Representative
 Actual Revenue Achievement by Sales Team.
 Data Structure
 
-# The dataset consists of 8 tables that include information on sales transactions as well as set targets for each year.
+## The dataset consists of 8 tables that include information on sales transactions as well as set targets for each year.
 
 DimLocation table: contains the city where the store is located, latitude, longitude, and a unique identifier.
 DimChannel table: contains a channel for drug distribution and a unique identifier.
@@ -42,13 +42,14 @@ Sales2023–2025: contains monthly transactions of products and quantities sold 
 Target data: contains set targets for the years 2022- 2025.
 Data Cleaning & Transformation
 
-# All eight tables were imported into the Power BI Desktop and transformed into a power query.
+## All eight tables were imported into the Power BI Desktop and transformed into a power query.
+
 Both sales tables had similar column names so they were appended together.
 Each dimension table had its unique identifier in the sales table, except the DimChannel table. The DimChannel tabe was joined with the DimSubChannel table using its unique identifier to enable a star schema model.
 
 ![Join Dim channel](https://github.com/MohamedAlimamyJawah/Forggith-Pharmaceuticals---With-Power-BI/assets/131864852/1a141f0e-8702-49dc-ad52-d0f44615b9c2)
 
-# Unpivoting columns in the target table
+## Unpivoting columns in the target table
 
 ![Screenshot (29)](https://github.com/MohamedAlimamyJawah/Forggith-Pharmaceuticals---With-Power-BI/assets/131864852/e6c4b639-36e0-4721-b8a5-4516e99cbf06)
 
